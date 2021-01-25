@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Adobe Clean Light';
+    src: url('AdobeClean-Light.eot');
+    src: url('AdobeClean-Light.eot?#iefix') format('embedded-opentype'),
+    url('AdobeClean-Light.woff') format('woff'),
+    url('AdobeClean-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Adobe Clean Regular';
+    src: url('AdobeClean-Regular.eot');
+    src: url('AdobeClean-Regular.eot?#iefix') format('embedded-opentype'),
+    url('AdobeClean-Regular.woff') format('woff'),
+    url('AdobeClean-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Adobe Clean Bold';
+    src: url('AdobeClean-Bold.eot');
+    src: url('AdobeClean-Bold.eot?#iefix') format('embedded-opentype'),
+    url('AdobeClean-Bold.woff') format('woff'),
+    url('AdobeClean-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+html {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 6px #d8d5d580;
+    z-index: 2;
+    padding:1% 1% 1% 1%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    padding:0 1% 0 1%;
+    
+}
+
+main {
+    margin-top: 100px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Adobe Clean light', sans-serif;
+    font-size: 18px;
+
+}
+
+#hiof{
+    font-family: 'Adobe Clean Bold', sans-serif;
+}
+
+#title1{
+    width: 40%;
+}
+
+.form{
+   
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form label{
+    font-family: 'Adobe Clean Regular', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+textarea {
+    border-radius: 6px;
+}
+
+#add{
+    color: white;
+    font-family: 'Adobe Clean Bold', sans-serif;
+    font-size: 16px;
+    background-color: #56d4c2;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+    width: 30%;
+    
+}
+
+#knapp-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+
+.wrapper_cards{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+article{
+    width: 30%;
+    box-shadow: 0px 5px 6px #d8d5d580;
+    z-index: 2;
+    padding: 5px;
+}
+
+h4 {
+    font-family: 'Adobe Clean Regular', sans-serif;
+    font-size: 16px;
+ 
+}
+
+p{
+    font-family: 'Adobe Clean Light', sans-serif;
+    font-size: 12px;
+}
+.button_cards{
+    color: white;
+    font-family: 'Adobe Clean Regular', sans-serif;
+    font-size: 12px;
+    background-color: #56d4c2;
+    border-radius: 6px;
+    padding: 5px;
+
+}
+
+#title_todos{
+    font-family: 'Adobe Clean Regular', sans-serif;
+    font-size: 16px;
+    margin: 80px auto 0px 20%;
+
+}
