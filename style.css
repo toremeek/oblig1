@@ -161,7 +161,7 @@ p{
 @media only screen and (max-width: 800px) {
 
     .wrapper_cards{
-        width: 50%;
+        width: 45%;
         align-items: left;
         display: flex;
         flex-wrap: wrap;
@@ -169,8 +169,8 @@ p{
 
     }
     article{
-        width: 40%;
-        box-shadow: 0px 5px 6px #d8d5d580;
+        width: 100%;
+        border-bottom: 4px solid #d8d5d580;
         padding: 5px;
     }
 }
